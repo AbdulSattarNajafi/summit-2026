@@ -1102,6 +1102,7 @@ img {
   overflow-x: auto;
 }
 .agenda__tab-card h3 {
+  align-self: flex-start;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.7;
