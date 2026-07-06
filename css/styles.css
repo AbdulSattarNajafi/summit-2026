@@ -176,8 +176,8 @@ img {
   transform: translateY(-5px);
 }
 .btn-up.show {
-  opacity: 1;
-  visibility: visible;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 .gradient-section {
@@ -197,6 +197,9 @@ img {
   h2 {
     font-size: 1.75rem;
   }
+  .btn-up {
+    bottom: 60px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -205,6 +208,10 @@ img {
   }
   h2 {
     font-size: 2rem;
+  }
+  .btn-up {
+    bottom: 80px;
+    right: 40px;
   }
 }
 

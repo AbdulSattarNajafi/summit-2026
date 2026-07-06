@@ -17,7 +17,7 @@ function closeMenu() {
 }
 
 // =========== Show & Hide Button Scroll to Top
-const btnUp = document.querySelector('.btn-up');
+const btnUp = document.getElementById('btn-up');
 const header = document.querySelector('.header');
 window.onscroll = function () {
   const windowHeight = window.innerHeight;
