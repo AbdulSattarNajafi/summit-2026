@@ -156,8 +156,8 @@ img {
 
 .btn-up {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 80px;
+  right: 40px;
   z-index: 99;
   background: #ff9d5a;
   color: white;
@@ -197,9 +197,6 @@ img {
   h2 {
     font-size: 1.75rem;
   }
-  .btn-up {
-    bottom: 60px;
-  }
 }
 
 @media (min-width: 992px) {
@@ -208,10 +205,6 @@ img {
   }
   h2 {
     font-size: 2rem;
-  }
-  .btn-up {
-    bottom: 80px;
-    right: 40px;
   }
 }
 
@@ -1160,28 +1153,15 @@ img {
   display: flex;
   align-items: center;
   gap: 4px;
+  background: #ffffff;
   border-radius: 100px;
   padding: 3px;
   transition: all 0.25s ease;
 }
 .agenda__cta-btn:hover .agenda__cta-inner {
-  background: #ffffff;
+  background: transparent;
 }
 .agenda__cta-text {
-  background: -webkit-linear-gradient(
-    270deg,
-    #ffffff 0%,
-    #ffffff 32.69%,
-    #ffffff 68.27%,
-    #ffffff 100%
-  );
-  background: linear-gradient(270deg, #ffffff 0%, #ffffff 32.69%, #ffffff 68.27%, #ffffff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: 0 15px;
-  transition: all 0.25s ease;
-}
-.agenda__cta-btn:hover .agenda__cta-text {
   background: -webkit-linear-gradient(
     270deg,
     #ff7975 0%,
@@ -1193,6 +1173,20 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 0 15px;
+  transition: all 0.25s ease;
+}
+.agenda__cta-btn:hover .agenda__cta-text {
+  background: -webkit-linear-gradient(
+    270deg,
+    #ffffff 0%,
+    #ffffff 32.69%,
+    #ffffff 68.27%,
+    #ffffff 100%
+  );
+  background: linear-gradient(270deg, #ffffff 0%, #ffffff 32.69%, #ffffff 68.27%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 15px;
 }
 .agenda__cta-icon {
   display: flex;
@@ -1200,14 +1194,14 @@ img {
   justify-content: center;
   width: 31px;
   height: 31px;
-  color: #ff7975;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #ff7975;
   border-radius: 100px;
   transition: all 0.25s ease;
 }
 .agenda__cta-btn:hover .agenda__cta-icon {
-  color: #ffffff;
-  background-color: #ff7975;
+  color: #ff7975;
+  background-color: #ffffff;
 }
 
 @media (min-width: 576px) {
